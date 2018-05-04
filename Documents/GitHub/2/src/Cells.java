@@ -79,9 +79,9 @@ public class Cells {
 			count--;
 		
 		if(count ==3) {
-			return 1;				//1이면 살아남
+			return 1;				//주위 생존세포가 3이면 살아남
 		}else if(count ==2){
-			return tGen[y][x];	//2면유지
+			return tGen[y][x];		//2면유지
 		}else {
 			return 0;				//이외엔 죽음
 		}
