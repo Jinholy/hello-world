@@ -36,7 +36,6 @@ public class Main {
 		for(int i : result) {
 			System.out.print(i + " ");
 		}
-		System.out.println("");
 		s.close();
 	}
 
