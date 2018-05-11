@@ -53,8 +53,10 @@ public class Main {
 		int denominator = denominator1*denominator2;
 		int numerator 	= upperDot*denominator + denominator1*lastInt + denominator2*remainInt;
 		int gys			= getGYS(numerator, denominator);
-				
-		if(denominator/gys !=1)
+		
+		if(denominator/gys == numerator/gys)
+			System.out.println("result : 1");
+		else if(denominator/gys !=1)
 			System.out.println("result : " + numerator/gys + "/" + denominator/gys);
 		else
 			System.out.println("result : " + numerator/gys);
