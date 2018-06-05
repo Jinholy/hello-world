@@ -25,7 +25,7 @@ public class Main {
 		System.out.println(input + "는 아스키 코드로" + result + "입니다.");
 		
 		System.out.println("a".hashCode());
-		System.out.println("b".hashCode());
+		System.out.println("b".hashCode());			//한개만하면 아스키코드나오는데 문자열하면 다른게나온다
 	
 		s.close();
 	}
